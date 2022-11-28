@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  scroll-behavior: smooth !important;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+p {
+  color: #666;
+  line-height: 1.5rem;
+  font-size: 0.9rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #666;
+}
+
+h2 {
+  font-size: 2.5rem !important;
+}
+
+section {
+  margin-bottom: 4rem;
+}
+
+footer {
+  padding-top: 1.8rem;
+}
+
+.primary__btn {
+  background-color: #9ececc !important;
+  padding: 7px 20px !important;
+  border: none;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.primary__btn a {
+  text-decoration: none;
+  color: #fff !important;
+  background: transparent !important;
+}
+
+.secondary__btn {
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 7px 25px;
+  transition: 0.5s;
+  color: #808dad !important;
+}
+
+.secondary__btn a {
+  color: #9ececc !important;
+}
+
+.primary__btn:hover,
+.primary__btn:focus {
+  transform: scale(0.9);
+}
+
+.secondary__btn:hover,
+.secondary__btn:focus {
+  transform: scale(0.9);
+}
+
+.primary__btn a:hover,
+.secondary__btn a:hover {
+  color: unset;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  /* background: #c1d6d0; */
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 2em;
+  background: #808dad;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  p {
+    font-size: 0.9rem !important;
+  }
+
+  .primary__btn a,
+  .secondary__btn a {
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  section {
+    padding-top: 40px;
+  }
+
+  footer {
+    padding-top: 0;
+    border: none;
+  }
+}

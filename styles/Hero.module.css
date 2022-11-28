@@ -1,0 +1,153 @@
+.hero {
+  padding-top: 2.5rem;
+  margin-bottom: 6rem;
+}
+
+.hero__content h5 {
+  color: #808dad;
+  font-weight: 300;
+}
+
+.hero__img {
+  position: relative;
+  z-index: 9;
+  margin-left: 30%;
+  margin-top: 0.5rem;
+}
+
+.hero__img img {
+  border-radius: 5px 50px 5px 5px;
+}
+
+.hero__skills {
+  text-align: left;
+  width: 130px;
+  padding: 10px 20px;
+  position: absolute;
+  top: 50%;
+  left: -20%;
+  transform: translateY(-50%);
+  border-radius: 5px;
+  background: #808dad2f;
+  z-index: 10;
+}
+
+.hero__skills h6 {
+  background: transparent;
+}
+
+.hero__skills span i {
+  color: #41d9ab;
+  background: transparent;
+}
+
+.hero__skills span {
+  background: transparent;
+}
+
+.hero__experience {
+  width: 150px;
+  position: absolute;
+  bottom: -12%;
+  right: 10%;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background: #808dad2f;
+  z-index: 10;
+}
+
+.hero__experience span,
+.hero__experience h5,
+.hero__experience h6 {
+  background: transparent !important;
+}
+
+.hero__experience h6 {
+  margin-bottom: 5px;
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+
+.hero__experience span i {
+  padding: 5px;
+  color: #41d9ab;
+  background: #808dad;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 992px) {
+  .hero__content h2 {
+    font-size: 1.5rem !important;
+  }
+
+  .hero__content h5 {
+    font-size: 1.1rem !important;
+  }
+
+  .hero__img img {
+    width: 210px !important;
+    height: 280px !important;
+  }
+
+  .hero__content {
+    padding-top: 0;
+  }
+
+  .hero__skills {
+    padding: 10px;
+    width: 100px;
+    left: -22%;
+  }
+
+  .hero__skills h6,
+  .hero__skills span i {
+    font-size: 0.8rem;
+    margin-bottom: 0;
+  }
+
+  .hero__experience {
+    bottom: -17%;
+    left: 50%;
+    padding: 10px;
+    width: 130px;
+  }
+
+  .hero__experience h6 {
+    font-size: 0.8rem;
+  }
+
+  .hero__experience h5 {
+    font-size: 1rem;
+  }
+
+  .hero__experience span i {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .hero__img {
+    text-align: center !important;
+    margin-top: 50px;
+    display: flex;
+  }
+
+  .hero__img img {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero__skills {
+    left: -20%;
+  }
+
+  .hero {
+    margin-bottom: 2rem !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .hero__skills {
+    display: none;
+  }
+}

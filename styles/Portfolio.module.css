@@ -1,0 +1,11 @@
+.tab__btn__activate {
+  color: #41d9ab !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .tab__btns {
+    text-align: left !important;
+    /* margin-top: -10px; */
+    margin-bottom: 30px;
+  }
+}
