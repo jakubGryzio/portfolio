@@ -17,12 +17,12 @@ const portfolio = [
     url: "https://github.com/jakubGryzio/umbrella",
     description:
       "The mobile application created in React Native technology and writed in JavaScript. The main logic of the application was creating a clothes prediction for specific weather and route. The users can create their own outfit by clothes from virtual wardrobe or choose ones app proposes. The team consisted of 4 developers - I was responsible for the system architecture and implementation of business logic and user interface.",
-    technologies: ["React-Native", "Firebase"],
+    technologies: ["React-Native", "Firebase", "Expo"],
   },
   {
     id: "3",
     title: "JavaScript Course",
-    img: "I have accomplished",
+    img: "",
     category: "Web App",
     url: "https://github.com/jakubGryzio/JavaScript/tree/main/complete-javascript-course-master",
     description:
@@ -58,6 +58,36 @@ const portfolio = [
       "The console application to parse IFC file (BIM specification), which describe dependencies between building elements. The graph Neo4j database was used to create relationship between elements in file.",
     url: "https://github.com/jakubGryzio/BIMtoGIS",
     technologies: ["Python", "Neo4j"],
+  },
+  {
+    id: "7",
+    title: "LogFeaturesCounter",
+    img: "",
+    category: "Desktop App",
+    description:
+      "The desktop GUI application parses log files from the migration process. The application was created to read .log files and parse how many class objects were inserted into the database. After that, the complete information was saved to an Excel file. Another feature is running SQL scripts on the database and saving the output to another sheet.",
+    url: "https://github.com/jakubGryzio/LogFeaturesCounter",
+    technologies: ["Python", "Oracle"],
+  },
+  {
+    id: "8",
+    title: "epsgSearcher",
+    img: "",
+    category: "Desktop App",
+    description:
+      "The console application extracts the coordinates system from dxf files. The main goal of the application is to extract valid globe coordinate systems from files. The next step is dividing files into folders per coordinates system using os and shutil library.",
+    url: "https://github.com/jakubGryzio/epsgSearcher",
+    technologies: ["Python", "Oracle"],
+  },
+  {
+    id: "9",
+    title: "gnss-planning",
+    img: "",
+    category: "Web App",
+    description:
+      "The Flask appliction to GPS measurement planning. The app was inspired by https://www.gnssplanning.com/, which has been developed by Trimble.",
+    url: "https://github.com/jakubGryzio/gnss-planing",
+    technologies: ["Python", "Flask", "JavaScript"],
   },
 ];
 
