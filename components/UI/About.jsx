@@ -79,7 +79,7 @@ const About = () => {
                 <Link href="#portfolio">My Portfolio</Link>
               </button>
               <button className="secondary__btn">
-                <Link download href="cv/Jakub_GryzioENG.pdf">
+                <Link download href="cv/JakubGryzio_ENG.pdf">
                   Download CV
                 </Link>
               </button>
