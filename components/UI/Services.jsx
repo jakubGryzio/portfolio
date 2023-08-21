@@ -44,10 +44,73 @@ const Services = () => {
             <SectionSubtitle subtitle="What I do" />
             <h3 className="mb-0 mt-4">Good design</h3>
             <h3 className="mb-4">Useful solution</h3>
-            {badge === "App Development" && <p>{appDevelopmentText}</p>}
-            {badge === "Web Development" && <p>{webDevelopmentText}</p>}
+            {badge === "App Development" && (
+              <>
+                <p>
+                  I've been developing desktop applications to create new
+                  features in a large desktop application. <br />I work on
+                  source code created and maintained for many years.
+                </p>
+                <ul>
+                  <p>Technologies</p>
+                  <li>C#</li>
+                  <li>.NET Framework 4.7.2</li>
+                  <li>Windows Forms</li>
+                </ul>
+                <p>
+                  I have developed desktop applications to compute massive
+                  datasets or automate processes.
+                </p>
+                <ul>
+                  <p>Technologies</p>
+                  <li>Python</li>
+                  <li>Pandas</li>
+                  <li>Numpy</li>
+                </ul>
+              </>
+            )}
+            {badge === "Web Development" && (
+              <>
+                <p>I really love to create web applications and websites.</p>
+                <p>Technologies</p>
+                <ul>
+                  <li>JavaScript</li>
+                  <li>TypeScript</li>
+                  <li>HTML5</li>
+                  <li>CSS 3</li>
+                  <li>ReactJS</li>
+                  <li>Angular</li>
+                  <li>NextJS</li>
+                </ul>
+              </>
+            )}
             {badge === "Full-Stack Development" && (
-              <p>{fullStackDevelopmentText}</p>
+              <>
+                <p>
+                  I've been developing an full-stack applications by using a few
+                  technologies.
+                </p>
+                <p>Backend</p>
+                <ul>
+                  <li>C# - ASP.NET 7.0</li>
+                  <li>C# - .NET Framework 4.7.2</li>
+                  <li>Python - Django</li>
+                </ul>
+                <p>Frontend</p>
+                <ul>
+                  <li>Angular</li>
+                  <li>Blazor - MVVM</li>
+                  <li>React</li>
+                </ul>
+                <p>I am familiar with relative and NoSQL databases.</p>
+                <ul>
+                  <li>PostgreSQL</li>
+                  <li>Oracle</li>
+                  <li>MongoDB</li>
+                  <li>Redis</li>
+                  <li>Neo4j</li>
+                </ul>
+              </>
             )}
           </Col>
         </Row>

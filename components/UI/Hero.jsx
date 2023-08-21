@@ -18,9 +18,10 @@ const Hero = () => {
               <h5 className="mb-4">FullStack Developer</h5>
               <p>
                 Hardworking, inventive and independent Geoinformatics student
-                and Junior Software Developer. <br /> I am currently working on
-                web and GIS solutions for a large transport company. In the
-                future, <br /> I would like to fulfill myself as a Full Stack
+                and .NET Developer. <br /> I am currently working on Web and
+                Desktop solutions for a large transport company for Hexagon.
+                <br />
+                In the future, I would like to fulfill myself as a Full Stack
                 Developer. I appreciate working in an environment that will
                 allow me to develop my skills.
               </p>
